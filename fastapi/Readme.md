@@ -22,7 +22,7 @@
         pip install -r requirements.txt
     ```
 4. Run the application with `uvicorn main:app --reload`
-        ```
+
     > The application will be listening by default on **http://127.0.0.1:8000/**
 
 5. To deploy this sample to Azure Web App Linux with Gunicorn, use this startup command `gunicorn --bind=0.0.0.0 --timeout 600 -w 4 -k uvicorn.workers.UvicornWorker main:app`
