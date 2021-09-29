@@ -11,6 +11,7 @@
 5. To get the installed packages and its dependencies installed inside the virtual environment use **`pip list`**.
 6. Also check the site-packages folder.
    > *Linux*:  ./virtual-environment-name>/lib/python<python-version>/site-packages
+   >
    > *Windows*: .<virtual-environment-name>\lib\site-packages
 
 ## Creating application files
@@ -168,10 +169,10 @@
     ```
  
     Start the application with **`python app.py`**, open your browser on this page `http://localhost:5000/`
-11. Try the following endpoints to test:
-   - http://localhost:5000/api/products/all
-   - http://localhost:5000/api/products?id=<number>
-   - http://localhost:5000/api/products
+11. Test the following endpoints:
+    - http://localhost:5000/api/products/all
+    - http://localhost:5000/api/products?id=<number>
+    - http://localhost:5000/api/products
 
 ## Implementing Template Engine
 1. Install Jinga2 library with  **`pip install Jinja2`** with virtual environment activated.
