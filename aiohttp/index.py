@@ -11,7 +11,7 @@ app.add_routes([web.get('/', handle),
 
 if __name__ == '__main__':
     web.run_app(app)
-
+    
 ## If you want to run in development over TCP/IP
 def init_func(argv):
     app = web.Application()
