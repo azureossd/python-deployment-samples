@@ -188,7 +188,7 @@
     def home():
         return render_template('index.html',title="Products", products=products)
     ```
-4. Download the **static** folder from the following github repository: https://github.com/azureossd/python-training-resources, you can clone it or download it as zip file.
+4. Download the **static** folder located inside **python-training-resources/ui/flask/** from the following github repository: https://github.com/azureossd/python-training-resources, you can clone it or download it as zip file.
 5. Copy the **static** folder to your project root directory.This project contains two folders:
 	- css – bootstrap.min.css (Cascading Style Sheet)
 	- images – some images for the project.
