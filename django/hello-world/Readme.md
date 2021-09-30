@@ -30,7 +30,7 @@
     python manage.py runserver
     ```
 
-    Django app will be listening by default in port 8000, so browse to http://127.0.0.1:8000/ to get the default page. To change this port, you can use `python manage.py runserver 0:8080`
+    Django app will be listening by default in port 8000, so browse to http://localhost:8000/ to get the default page. To change this port, you can use `python manage.py runserver 0:8080`
 
 6. Create an app for this project with:
     ```
@@ -82,7 +82,7 @@
     python manage.py runserver
     ```
 
-    Browse to http://127.0.0.1:8000/   
+    Browse to http://localhost:8000/   
 
 # Working with Django Template Engine and Styles
 1. Download the static and templates folders located under **python-training-resources/ui/django/** from this git repository: `https://github.com/azureossd/python-training-resources.git`, you can clone it or download it as zip file.
@@ -141,7 +141,7 @@
     python manage.py runserver
     ```
 
-    Browse to http://127.0.0.1:8000/    
+    Browse to http://localhost:8000/    
 
 
 ## Final Result
