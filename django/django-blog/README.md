@@ -49,7 +49,7 @@
    ![image](./django-blog-2.png)
 
 # Django Admin Portal
-1. To interact with Django Admin portal,clik on **Log in**, this button will redirect to **`/admin`**, this portal is automatically created by Django as mentioned before, you can also request directly to `http://localhost:8000/admin/`.
+1. To interact with Django Admin portal, click on **Log in**, this button will redirect to **`/admin`**, this portal is automatically created by Django as mentioned before, you can also request directly to `http://localhost:8000/admin/`.
 2. Log in into the admin portal with the superuser created before.
 3. Click on **Blog** and add several Posts clicking on **ADD POST**. 
 
