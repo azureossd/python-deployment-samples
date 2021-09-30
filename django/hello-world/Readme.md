@@ -82,11 +82,7 @@
     python manage.py runserver
     ```
 
-    Browse to http://127.0.0.1:8000/    
-
-
-    https://github.com/azureossd/python-training-resources/tree/master/ui/django
-
+    Browse to http://127.0.0.1:8000/   
 
 # Working with Django Template Engine and Styles
 1. Download the static and templates folders located under **python-training-resources/ui/django/** from this git repository: `https://github.com/azureossd/python-training-resources.git`, you can clone it or download it as zip file.
