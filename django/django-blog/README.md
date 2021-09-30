@@ -44,8 +44,9 @@
 
      Django app will be listening by default in port 8000, so browse to http://localhost:8000/ to get the default page. To change this port, you can use `python manage.py runserver 0:8080`
 9. Click on `Go to Blog` blue button:
- ![image](./django-blog-1.png)
- ![image](./django-blog-2.png)
+
+   ![image](./django-blog-1.png)
+   ![image](./django-blog-2.png)
 
 # Django Admin Portal
 1. To interact with Django Admin portal,clik on **Log in**, this button will redirect to **`/admin`**, this portal is automatically created by Django as mentioned before, you can also request directly to `http://localhost:8000/admin/`.
@@ -61,9 +62,11 @@
     - Author
     - Date Published
 4. After adding some posts, browse the site `http://localhost:8000/blog/` to see the changes.
- ![image](./django-blog-3.png)
+
+   ![image](./django-blog-3.png)
 
 5. You can click in each post and it will redirect you to the content, the template is  using syntax `http://localhost:8000/blog/<index>/`
-![image](./django-blog-4.png)
+
+   ![image](./django-blog-4.png)
 
 
