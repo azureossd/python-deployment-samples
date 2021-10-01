@@ -20,7 +20,7 @@
         ```
 4. Once the virtual environment is activated, install this specific Django version:
     ```shell
-    pip install Django==3.0.4
+    pip install Django==3.0.4 whitenoise==5.1.0
     ```
 5. You will need to create a database for the application, for this module we are going to use SQLite. Since you have a model called **Post** under **`blog/models.py`** you can run the following command to create migrations for this model.
     ```shell
