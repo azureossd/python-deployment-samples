@@ -195,7 +195,7 @@
 
 6. Open **index.html** file and add the following content:
     ```html
-    </html>
+    <html>
         <head>
             <title>{{ title }}</title>
             <link href="/static/css/bootstrap.min.css" rel="stylesheet">
