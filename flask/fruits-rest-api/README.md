@@ -100,19 +100,25 @@
 
         return jsonify(results)
     ```
-9. Add CORS after the app instance.
+9. Import CORS module with:
+```python
+  from flask_cors import CORS
+```
+10. And initialize it after the app instance.
     ```python
     app = Flask(__name__)
 
     cors = CORS(app)
     ```
-10. Final structure will be like this: 
+11. Final structure will be like this: 
     ```python
     #import modules section
     from flask import Flask, request, jsonify
     import os
+    from flask_cors import CORS
 
     app = Flask(__name__)
+    CORS(app)
 
     #variables section
     products = [
@@ -169,7 +175,7 @@
     ```
  
     Start the application with **`python app.py`**, open your browser on this page `http://localhost:5000/`
-11. Test the following endpoints:
+12. Test the following endpoints:
     - http://localhost:5000/api/products/all
     - http://localhost:5000/api/products?id=<number>
     - http://localhost:5000/api/products

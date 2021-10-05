@@ -1,8 +1,10 @@
 #import modules section
 from flask import Flask, request, jsonify, render_template
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 #variables section
 products = [
