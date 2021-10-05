@@ -11,7 +11,7 @@
 2. Activate the virtual environment.
     - If you are using Windows in cmd:
         ```shell
-        env\Scripts\activate.bat
+        env\Scripts\activate
         ```
     - If you are using Linux
         ```shell
