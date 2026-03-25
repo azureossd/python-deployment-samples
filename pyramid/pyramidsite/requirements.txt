@@ -5,7 +5,7 @@ markupsafe==3.0.3
 PasteDeploy==3.1.0
 plaster==1.0
 plaster-pastedeploy==0.7
-pygments==2.7.4
+pygments==2.19.2
 pyramid==1.10.4
 pyramid-debugtoolbar==4.6.1
 pyramid-jinja2==2.8
