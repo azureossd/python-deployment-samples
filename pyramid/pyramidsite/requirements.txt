@@ -17,4 +17,4 @@ waitress==3.0.2
 WebOb==1.8.6
 zope.deprecation==4.4.0
 zope.interface==5.1.0
-psycopg2==2.8.5
+psycopg2==2.9.11
