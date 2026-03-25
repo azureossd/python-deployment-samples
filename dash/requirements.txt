@@ -16,5 +16,5 @@ plotly==6.6.0
 python-dateutil==2.9.0.post0
 pytz==2019.3
 retrying==1.4.2
-six==1.14.0
+six==1.17.0
 Werkzeug==3.1.6
