@@ -7,7 +7,7 @@ plaster==1.1.2
 plaster-pastedeploy==0.7
 pygments==2.19.2
 pyramid==2.1
-pyramid-debugtoolbar==4.6.1
+pyramid-debugtoolbar==4.12.1
 pyramid-jinja2==2.10.1
 pyramid-mako==1.1.0
 repoze.lru==0.7
