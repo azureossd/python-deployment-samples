@@ -10,7 +10,7 @@ pyramid==2.1
 pyramid-debugtoolbar==4.12.1
 pyramid-jinja2==2.10.1
 pyramid-mako==1.1.0
-repoze.lru==0.7
+repoze.lru==0.8
 translationstring==1.4
 venusian==3.1.1
 waitress==3.0.2
